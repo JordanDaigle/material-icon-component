@@ -80,7 +80,7 @@ class MaterialIcon extends LitElement
     render() {
         return html`
             <div class='icon-button'>
-                <i class='material-icons${this.tone?'-'+this.tone:''}'>${(this.icon || "").replace('-', '_')}</i>
+                <i class='material-icons${this.tone?'-'+this.tone:''}'>${(this.icon || "").replace('-', '_').toLowerCase()}</i>
                 <paper-ripple class="circle" recenters></paper-ripple>
             </div>
         `;
@@ -100,6 +100,7 @@ class MaterialIcon extends LitElement
                 cursor:pointer;
                 width:1em;
                 height:1em;
+                user-select:none;
             }
             
             .material-icons,
