@@ -3,36 +3,34 @@ Simple material design icon component
 
 # Usage
 Javascript :
-<div class='highlight highlight-source-js'>
-  <pre>
+
+```javascript
     import './material-icon.js'
-  </pre>
-</div>
+```
 
 HTML:
-<div class='highlight highlight-text-html-basic'>
-  <pre>
 
-    &lt;material-icon icon='wb-incandescent'&gt;&lt;/material-icon&gt;
+```html
 
-    &lt;-- clickable icon with ripple effect --&gt;
-    &lt;material-icon icon='wb-incandescent' clickable&gt;&lt;/material-icon&gt;
+  <material-icon icon='wb-incandescent'></material-icon>
+  
+  <-- clickable icon with ripple effect -->
+  <material-icon icon='wb-incandescent' clickable></material-icon>
 
-    &lt;-- Using round icon font --&gt;
-    &lt;material-icon icon='wb-incandescent' round&gt;&lt;/material-icon&gt;
+  <-- Using round icon font -->
+  <material-icon icon='wb-incandescent' round></material-icon>
 
-    &lt;-- Using sharp icon font --&gt;
-    &lt;material-icon icon='wb-incandescent' sharp&gt;&lt;/material-icon&gt;
+  <-- Using sharp icon font -->
+  <material-icon icon='wb-incandescent' sharp></material-icon>
 
-    &lt;-- Using outlined icon font --&gt;
-    &lt;material-icon icon='wb-incandescent' outlined&gt;&lt;/material-icon&gt;
+  <-- Using outlined icon font -->
+  <material-icon icon='wb-incandescent' outlined></material-icon>
 
-    &lt;-- Using two tone icon font --&gt;
-    &lt;material-icon icon='wb-incandescent' two-tone&gt;&lt;/material-icon&gt;
+  <-- Using two tone icon font -->
+  <material-icon icon='wb-incandescent' two-tone></material-icon>
 
+```
 
-  </pre>
-</div>
 
 
 # Icons
