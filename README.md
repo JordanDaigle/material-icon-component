@@ -1,4 +1,4 @@
-# MaterialDesignIconComponent
+# Material Design Icon Component
 Simple material design icon component
 
 # Usage
