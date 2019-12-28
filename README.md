@@ -14,7 +14,7 @@ HTML:
   &lt;-- use any of the material design icon font --&gt;
   &lt;material-icon icon='wb-incandescent'&gt;&lt;/material-icon&gt;
   
-  &lt;-- clieckable icon with ripple effect --&gt;
+  &lt;-- clickable icon with ripple effect --&gt;
   &lt;material-icon icon='wb-incandescent' clickable&gt;&lt;/material-icon&gt;
   
   &lt;-- Using round icon font --&gt;
