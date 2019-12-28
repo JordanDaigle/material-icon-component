@@ -32,4 +32,4 @@ HTML:
 
 
 # Icons
-https://material.io/resources/icons/?style=baseline
+you can get all icons name at : https://material.io/resources/icons/?style=baseline
