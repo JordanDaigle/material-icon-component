@@ -11,22 +11,22 @@ Javascript :
 HTML:
 
 ```html
-    <material-icon icon='wb-incandescent'></material-icon>
+    <md-icon>assignment-turned-in</md-icon>
 
-    <-- clickable icon with ripple effect -->
-    <material-icon icon='wb-incandescent' clickable></material-icon>
+    <!-- clickable icon with ripple effect -->
+    <md-icon clickable>assignment-turned-in</md-icon>
 
-    <-- Using round icon font -->
-    <material-icon icon='wb-incandescent' round></material-icon>
+    <!-- Using round icon font -->
+    <md-icon round>assignment-turned-in</md-icon>
 
-    <-- Using sharp icon font -->
-    <material-icon icon='wb-incandescent' sharp></material-icon>
+    <!-- Using sharp icon font -->
+    <md-icon sharp>assignment-turned-in</md-icon>
 
-    <-- Using outlined icon font -->
-    <material-icon icon='wb-incandescent' outlined></material-icon>
+    <!-- Using outlined icon font -->
+    <md-icon outlined>assignment-turned-in</md-icon>
 
-    <-- Using two tone icon font -->
-    <material-icon icon='wb-incandescent' two-tone></material-icon>
+    <!-- Using two tone icon font -->
+    <md-icon two-tone>assignment-turned-in</md-icon>
 ```
 
 
