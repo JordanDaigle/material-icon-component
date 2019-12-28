@@ -1,0 +1,36 @@
+{
+  "name": "material-icon-component",
+  "version": "1.0.0",
+  "description": "Simple material design icon component",
+  "main": "material-icon.js",
+  "scripts": {
+    "build": "npx webpack material-icon.js -o dist/material-icon.js --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JordanDaigle/MaterialDesignIconComponent.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Webcomponents",
+    "Lit-Element",
+    "Polymer",
+    "Material",
+    "Design",
+    "Icons"
+  ],
+  "author": "Jordan Daigle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JordanDaigle/MaterialDesignIconComponent/issues"
+  },
+  "homepage": "https://github.com/JordanDaigle/MaterialDesignIconComponent#readme",
+  "dependencies": {
+    "@polymer/paper-ripple": "^3.0.2",
+    "lit-element": "^2.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
