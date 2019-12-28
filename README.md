@@ -10,8 +10,6 @@ Javascript :
 HTML:
 <pre>
 
-
-  &lt;-- use any of the material design icon font --&gt;
   &lt;material-icon icon='wb-incandescent'&gt;&lt;/material-icon&gt;
   
   &lt;-- clickable icon with ripple effect --&gt;
