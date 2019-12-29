@@ -4,7 +4,6 @@
  * the material design
  * icons font from google
  * 
- * @version 1.1
  * @author jordan.daigle
  * @date 2019-07-20
  */
