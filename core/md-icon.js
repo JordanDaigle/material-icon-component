@@ -45,24 +45,37 @@ export class MaterialDesignIcon extends LitElement
      * connected callback
      */
     connectedCallback() {
-        super.connectedCallback();
-        let instance = this;
-        let childrenConnectedCallback = () => {
-            if (instance.innerHTML) {
-                instance.isClickable = instance.hasAttribute("clickable");
-                instance.icon = instance.innerHTML;
-                instance.innerHTML = '';
-                instance.requestUpdate();
+        if (instance.innerHTML.trim()) {
+            instance.initialiseIcon();
+        } else {
+            super.connectedCallback();
+            let instance = this;
+            let childrenConnectedCallback = () => {
+                if (instance.innerHTML.trim()) {
+                    instance.initialiseIcon();
+                }
             }
+    
+            let observer = new MutationObserver(childrenConnectedCallback);
+            let config = { attributes: false, childList: true, subtree: true };
+            observer.observe(instance, config);
+    
+            setTimeout(() => {
+                observer.disconnect();
+            }, 0);
         }
-
-        let observer = new MutationObserver(childrenConnectedCallback);
-        let config = { attributes: false, childList: true, subtree: true };
-        observer.observe(instance, config);
-
-        setTimeout(() => {
-            observer.disconnect();
-        }, 0);
+    }
+    
+    
+    /**
+     * Initialising 
+     * icon
+     */
+    initialiseIcon() {
+        instance.isClickable = instance.hasAttribute("clickable");
+        instance.icon = instance.innerHTML;
+        instance.innerHTML = '';
+        instance.requestUpdate();
     }
     
     
