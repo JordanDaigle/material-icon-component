@@ -75,7 +75,7 @@ export class MaterialDesignIcon extends LitElement
         this.isClickable = this.hasAttribute("clickable");
         this.icon = this.innerHTML;
         this.innerHTML = '';
-        this.update(); //for some reason requestUpdate() doesn't always work but update() does the trick...
+        this.requestUpdate();
     }
     
     
