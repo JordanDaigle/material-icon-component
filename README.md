@@ -2,15 +2,20 @@
 Simple material design icon component
 
 # Usage
+Installation:
+```bash
+    npm i material-icon-component
+```
+
 Javascript :
 
 ```javascript
 
-    import './md-icon.js'
+    import 'material-icon-component/md-icon.js'
     
     //If you don't want "filled" as the default tone,
     //you can change it by importing another file.
-    import './md-icon-outlined.js'
+    import 'material-icon-component/md-icon-outlined.js'
 ```
 
 HTML:
