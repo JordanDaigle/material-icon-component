@@ -11,7 +11,6 @@ Javascript :
     //If you don't want "filled" as the default tone,
     //you can change it by importing another file.
     import './md-icon-outlined.js'
-    
 ```
 
 HTML:
