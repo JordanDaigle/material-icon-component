@@ -45,8 +45,8 @@ export class MaterialDesignIcon extends LitElement
      * connected callback
      */
     connectedCallback() {
-        if (instance.innerHTML.trim()) {
-            instance.initialiseIcon();
+        if (this.innerHTML.trim()) {
+            this.initialiseIcon();
         } else {
             super.connectedCallback();
             let instance = this;
@@ -72,10 +72,10 @@ export class MaterialDesignIcon extends LitElement
      * icon
      */
     initialiseIcon() {
-        instance.isClickable = instance.hasAttribute("clickable");
-        instance.icon = instance.innerHTML;
-        instance.innerHTML = '';
-        instance.requestUpdate();
+        this.isClickable = this.hasAttribute("clickable");
+        this.icon = this.innerHTML;
+        this.innerHTML = '';
+        this.requestUpdate();
     }
     
     
