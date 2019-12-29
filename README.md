@@ -17,22 +17,22 @@ Javascript :
 HTML:
 
 ```html
-    <md-icon>assignment-turned-in</md-icon>
+    <md-icon>assignment_turned_in</md-icon>
 
     <!-- clickable icon with ripple effect -->
-    <md-icon clickable>assignment-turned-in</md-icon>
+    <md-icon clickable>assignment_turned_in</md-icon>
 
     <!-- Using round icon font -->
-    <md-icon round>assignment-turned-in</md-icon>
+    <md-icon round>assignment_turned_in</md-icon>
 
     <!-- Using sharp icon font -->
-    <md-icon sharp>assignment-turned-in</md-icon>
+    <md-icon sharp>assignment_turned_in</md-icon>
 
     <!-- Using outlined icon font -->
-    <md-icon outlined>assignment-turned-in</md-icon>
+    <md-icon outlined>assignment_turned_in</md-icon>
 
     <!-- Using two tone icon font -->
-    <md-icon two-tone>assignment-turned-in</md-icon>
+    <md-icon two-tone>assignment_turned_in</md-icon>
 ```
 
 
