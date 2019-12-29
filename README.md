@@ -5,7 +5,13 @@ Simple material design icon component
 Javascript :
 
 ```javascript
-    import './material-icon.js'
+
+    import './md-icon.js'
+    
+    //If you don't want "filled" as the default tone,
+    //you can change it by importing another file.
+    import './md-icon-outlined.js'
+    
 ```
 
 HTML:
