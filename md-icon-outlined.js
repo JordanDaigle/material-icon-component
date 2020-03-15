@@ -6,4 +6,7 @@
  */
 
 import {MaterialDesignIconOutlined} from './core/md-icon-outlined';
-window.customElements.define('md-icon', MaterialDesignIconOutlined);
+
+if (!customElements.get('md-icon')) {
+  window.customElements.define('md-icon', MaterialDesignIconOutlined);
+}

@@ -6,4 +6,7 @@
  */
 
 import {MaterialDesignIconSharp} from './core/md-icon-sharp';
-window.customElements.define('md-icon', MaterialDesignIconSharp);
+
+if (!customElements.get('md-icon')) {
+  window.customElements.define('md-icon', MaterialDesignIconSharp);
+}

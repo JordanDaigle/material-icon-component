@@ -6,4 +6,7 @@
  */
 
 import {MaterialDesignIconRound} from './core/md-icon-round';
-window.customElements.define('md-icon', MaterialDesignIconRound);
+
+if (!customElements.get('md-icon')) {
+  window.customElements.define('md-icon', MaterialDesignIconRound);
+}
