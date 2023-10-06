@@ -1,31 +1,19 @@
-/**
- * Simple webcomponent
- * allowing the use of
- * the material design
- * icons font from google
- * 
- * @author jordan.daigle
- * @date 2019-07-20
- */
 import { MaterialDesignIcon } from './md-icon';
-
+import { TONES } from './tones';
 
 export class MaterialDesignIconOutlined extends MaterialDesignIcon
 {
-    /**
-     * Initializing 
-     * tone
-     */
-    initializeTone() {
-        this.tone = "outlined";
-        if (this.hasAttribute("round")) {
-            this.tone = "round";
-        } else if (this.hasAttribute("sharp")) {
-            this.tone = "sharp";
-        } else if (this.hasAttribute("filled")) {
-            this.tone = "filled";
-        } else if (this.hasAttribute("two-tone")) {
-            this.tone = "two-tone";
+    initializeFont () {
+        if (!MaterialDesignIconOutlined.offline) {
+            this.loadFonts();
         }
+    }
+    
+    initializeTone() {
+        this.tone = this.hasAttribute("round") ? TONES.ROUND : 
+            this.hasAttribute("sharp") ? TONES.SHARP :
+            this.hasAttribute("filled") ? TONES.FILLED :
+            this.hasAttribute("two-tone") ? TONES.TWO_TONE :
+            TONES.OUTLINED;
     }
 }
