@@ -37,8 +37,7 @@ HTML:
 ```
 
 OFFLINE MODE:
-If you want to have fonts available direcvtly in your application instead of using the google apis url you would need to import the desired fonts once in your application
-this will add in the header the inline css to make things work, and will ensure what the components doesn't try loading the font from the googleapis
+If you want the fonts to be available directly within your application, instead of relying on Google APIs, you'll need to import the desired fonts just once. Doing so will add the necessary inline CSS to your application's header, ensuring that the component won't attempt to load the fonts from Google APIs.
 
 ```javascript
     import 'material-icon-component/fonts/filled.js';
